@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* FONT */
+
+@font-face {
+    font-family: "Bicubik";
+    src: url("/fonts/Bicubik.otf") format("opentype");
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: monospace;
+    color: white;
+    background: radial-gradient(circle at top left, rgba(0, 255, 170, 0.15), transparent 40%), radial-gradient(circle at bottom right, rgba(0, 120, 255, 0.15), transparent 40%), linear-gradient(180deg, #0b0f14, #111827);
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.97);
+}
